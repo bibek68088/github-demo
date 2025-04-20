@@ -1,0 +1,64 @@
+Simple React TypeScript Counter
+===============================
+
+A basic counter app built using React and TypeScript. It allows you to increment and decrement a number with simple buttons. Great for beginners learning React with TypeScript (TSX).
+
+Features:
+---------
+- Built with TypeScript and React
+- Uses functional components and React Hooks
+- Optional Tailwind CSS for styling
+- Clean and minimal code
+- Easy to customize and expand
+
+Getting Started:
+----------------
+1. Clone the repository:
+   git clone https://github.com/your-username/react-ts-counter.git
+   cd react-ts-counter
+
+2. Install dependencies:
+   npm install
+   OR
+   yarn
+
+3. Start the development server:
+   npm run dev
+   OR
+   yarn dev
+
+4. Open your browser at http://localhost:3000
+
+Usage:
+------
+The Counter component is located at:
+  src/components/Counter.tsx
+
+You can import and use it like this:
+
+  import Counter from './components/Counter';
+
+  function App() {
+    return (
+      <div className="App">
+        <Counter />
+      </div>
+    );
+  }
+
+Technologies Used:
+------------------
+- React
+- TypeScript
+- Tailwind CSS (optional)
+- Vite or Create React App (your choice)
+
+Deployment:
+-----------
+You can deploy the app on:
+- Vercel
+- Netlify
+- GitHub Pages
+
+---------------------
+Made with ❤️ using React + TypeScript.
